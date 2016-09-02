@@ -1,5 +1,14 @@
 angular.module('starter.services', [])
 
+.factory('BankConnection', function() {
+
+  return {
+    get: function() {
+        return 'bank info';
+    }
+  };
+})
+
 .factory('Chats', function() {
   // Might use a resource here that returns a JSON array
 
