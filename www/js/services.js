@@ -5,6 +5,10 @@ angular.module('starter.services', [])
   return {
     get: function() {
         return 'bank info';
+    },
+    add: function(){
+
+      return true;
     }
   };
 })
